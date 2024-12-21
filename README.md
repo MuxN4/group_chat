@@ -4,8 +4,8 @@
 
 1. Clone the repository
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/MuxN4/group_chat.git
+cd group_chat
 ```
 
 2. Create a virtual environment
