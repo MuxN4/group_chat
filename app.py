@@ -27,7 +27,7 @@ def handle_connection():
 def handle_disconnection():
     user = users.pop(request.sid, None)
     if user:
-        emit("user left", {"username" : user["username"]}, broadcast=True)
+        emit("user_left", {"username" : user["username"]}, broadcast=True)
         
 @socketio.on("send_message")
 def handle_message(data):
